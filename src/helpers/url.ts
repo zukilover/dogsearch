@@ -1,0 +1,1 @@
+export const objToParams = (obj: Record<string, string>) => new URLSearchParams(obj).toString()
